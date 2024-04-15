@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 
-.search input{
+.search input{ 
     flex: 1;
     height:60px;
     border: 0;
@@ -50,4 +50,46 @@ body{
 .search button img{
     width: 1.3em;
     align-self: center;
+}
+
+.weather-image{
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+
+.weather h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 0 20px;
+}
+
+.columns{
+    display: flex;
+    align-items: center;
+    align-tracks: left;
+}
+
+.columns img{
+    width: 60px;
+    padding-right: 10px;
+}
+
+
+.humidity, .wind{
+    font-size: 30px;
+    margin-bottom: 6px;
 }
